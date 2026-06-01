@@ -1,90 +1,58 @@
-# Personal Site
+# Lucas — Sites & Soluções com IA
 
-## Descrição do Projeto
+Site de serviços freelance que ajuda pequenos negócios de São Paulo a entrarem no digital com sites modernos, responsivos e soluções baseadas em inteligência artificial.
 
-Este projeto é um site responsivo simples criado para apresentar uma solução digital básica para pequenos negócios locais que precisam de presença online.
+🔗 **Online:** https://lucasdreyer.github.io/Personal-site/
 
-O site foi desenvolvido utilizando padrões fundamentais da web, como HTML e CSS, com uma estrutura limpa, design visual simples, layout responsivo e um formulário de contato integrado.
+---
 
-O principal objetivo do projeto é demonstrar como um site simples pode ajudar pequenos negócios a apresentar seus serviços, explicar sua proposta e receber mensagens ou solicitações de possíveis clientes.
+## ✨ Destaques
 
-## Site Publicado
+- Design moderno em tema escuro, com animações ao rolar a página
+- **Mobile-first** — pensado primeiro para o celular
+- Botão de WhatsApp para contato direto
+- Formulário de contato integrado (Tally)
+- Seção **Projetos** com sites de demonstração reais (veja abaixo)
 
-O site está hospedado no GitHub Pages e pode ser acessado pelo link abaixo:
+## 🗂️ Projetos de demonstração
 
-https://lucasdreyer.github.io/Personal-site/
+Exemplos de sites para negócios locais — cada um com identidade visual própria:
 
-## Problema Resolvido
+| Demo | Segmento | Link |
+|------|----------|------|
+| **NAVALHA** | Barbearia | [`/demos/navalha/`](https://lucasdreyer.github.io/Personal-site/demos/navalha/) |
+| **Clínica Sorriso** | Odontologia | [`/demos/clinica/`](https://lucasdreyer.github.io/Personal-site/demos/clinica/) |
+| **Forno & Brasa** | Pizzaria / Delivery | [`/demos/pizzaria/`](https://lucasdreyer.github.io/Personal-site/demos/pizzaria/) |
 
-Muitos pequenos negócios locais precisam de uma presença online profissional, mas nem sempre possuem orçamento ou conhecimento técnico para contratar um desenvolvedor ou criar um site complexo.
+## 🛠️ Tecnologias
 
-Este site oferece uma solução simples ao disponibilizar:
+- HTML5 & CSS3 (sem frameworks, sem build)
+- JavaScript puro (animações de scroll e menu mobile)
+- Tally Forms · GitHub Pages
+- Apoio de IA na geração e organização do código
 
-- Uma página pública online
-- Informações claras sobre o serviço
-- Layout responsivo
-- Formulário direto de contato
-- Fácil acesso para possíveis clientes
-
-## Tecnologias Utilizadas
-
-- HTML
-- CSS
-- GitHub Pages
-- Tally Forms
-- Geração de código com assistência de IA
-
-## Funcionalidades
-
-- Layout responsivo em uma única página
-- Cabeçalho com links de navegação
-- Seção inicial explicando o objetivo do site
-- Seção “Sobre”
-- Seção de serviços
-- Seção de contato
-- Formulário Tally integrado diretamente ao site
-- Design simples e acessível
-- Hospedagem pública pelo GitHub Pages
-
-## Integração com Formulário
-
-O site inclui um formulário Tally integrado diretamente à estrutura HTML.
-
-Esse formulário permite que visitantes enviem informações de contato ou mensagens pelo próprio site. As respostas são armazenadas no Tally, tornando o projeto mais funcional do que uma página estática comum.
-
-## Assistência de IA
-
-O HTML e o CSS utilizados neste projeto foram gerados com assistência de IA.
-
-A IA foi usada para ajudar na estruturação do código, organização do layout, melhoria do estilo visual e desenvolvimento mais simples do site. A versão final foi revisada e adaptada para o objetivo deste projeto acadêmico.
-
-## Estrutura de Arquivos
+## 📁 Estrutura
 
 ```text
 Personal-site/
-├── index.html
+├── index.html          # Site principal
 ├── style.css
+├── demos/              # Sites de demonstração
+│   ├── navalha/        # Barbearia
+│   ├── clinica/        # Clínica odontológica
+│   └── pizzaria/       # Pizzaria
 └── README.md
+```
 
-## Estrutura curta do site
-Header
-Nome do site: “Lucas.”
-Menu de navegação: Início, Sobre, Serviços e Entrar em contato.
-Seção inicial / Hero
-Apresentação principal do serviço.
-Botões para solicitar orçamento e ver serviços.
-Pequenos indicadores como projetos entregues, foco acessível e prazo de resposta.
-Seção Sobre
-Explica o objetivo do projeto.
-Mostra a importância de levar pequenos negócios para o digital.
-Seção Serviços
-Cards com os principais serviços:
-Criação de sites.
-Presença digital.
-Soluções com inteligência artificial.
-Seção Contato
-Texto convidando o usuário a preencher o formulário.
-Formulário integrado do Tally dentro da própria página.
-Footer
-Direitos autorais.
-Links sociais, como GitHub e LinkedIn.
+## 🚀 Como rodar localmente
+
+É um site estático — basta abrir o `index.html` no navegador. Ou rode um servidor local:
+
+```bash
+python3 -m http.server 4321
+# acesse http://localhost:4321
+```
+
+---
+
+© 2026 Lucas Dreyer
